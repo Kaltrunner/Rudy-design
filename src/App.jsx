@@ -1,6 +1,8 @@
 import { Route } from "react-router-dom";
 import SlideRoutes from "react-slide-routes";
 import Landing from "./Landing/Landing";
+import Introduction from "./Intro/Introduction";
+import Values from "./Values/Values";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -9,18 +11,14 @@ function App() {
     <>
       <AnimatedCursor
         innerSize={0}
-        outerSize={60}
+        outerSize={30}
         color="192, 171, 255"
         outerAlpha={1}
-        innerScale={0.7}
+        innerScale={0}
         outerScale={1}
         trailingSpeed={10}
         hasBlendMode={true}
         hasFilter={true}
-        blur="1px"
-        outerStyle={{
-          filter: "blur(10px)",
-        }}
         clickables={[
           "a",
           'input[type="text"]',
@@ -38,11 +36,11 @@ function App() {
       <SlideRoutes>
         <Route path="/" element={<Landing />} />
 
-        {/* <Route path="/Introduction" element={<Introduction />} />
+        <Route path="/Introduction" element={<Introduction />} />
 
-          <Route path="/Values" element={<Values />} />
+       <Route path="/Values" element={<Values />} />
 
-          <Route path="/Rules" element={<Rules />} />
+           {/*<Route path="/Rules" element={<Rules />} />
 
           <Route path="/Components" element={<Components />} />
 

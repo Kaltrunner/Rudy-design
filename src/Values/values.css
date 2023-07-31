@@ -1,0 +1,35 @@
+.values-container-div {
+    margin: 4vw;
+  }
+  
+  .values-text-div {
+    font-family: 'Roboto', serif;
+    color: #101820;
+    font-size: 6vw;
+    font-weight: 500;
+    padding:0;
+    margin: 0;
+  }
+  
+  .values-p-text {
+    font-family: 'Roboto', serif;
+    line-height: 1.5;
+    margin: 6vh auto;
+  }
+  
+  .value-div {
+    width: 26vw;
+    margin: 6vh 0;
+    padding: 88px;
+    font-family: 'Roboto', serif;
+    color: #101820;
+    font-size: 4vw;
+    border: 2px solid;
+    text-decoration: none;
+    cursor: default;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  .value-div:hover {
+    background-color: #e3e3e3;
+    transition: all 0.25s ease-in-out 0s
+  }
