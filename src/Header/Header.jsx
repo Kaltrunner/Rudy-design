@@ -2,14 +2,11 @@ import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
-  function handleHomeClick() {}
-
   return (
     <div className="header-container">
       <Link to="/">
         <button className="header-buttons">←</button>
       </Link>
-
       <Link to="/Introduction">
         <button className="header-buttons">Introduction</button>
       </Link>

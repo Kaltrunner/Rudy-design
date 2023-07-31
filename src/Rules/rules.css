@@ -1,0 +1,22 @@
+.rules-container-div {
+    font-family: 'Roboto', serif;
+  }
+  
+  .rules-text-div {
+    color: #101820;
+    font-size: 6vw;
+    font-weight: 500;
+    padding:0;
+    margin: 0;
+  }
+
+  .rules-text-body {
+    width: 90%;
+    
+  }
+
+  .p-text {
+    line-height: 2;
+    font-size: 1.5vw;
+    letter-spacing: .01em;
+  }

@@ -1,10 +1,10 @@
 
 .landing-containder {
    margin: 4vw;
+   font-family: 'Roboto', serif;
   }
   
   .landing-logo-text {
-    font-family: 'Roboto', serif;
     font-weight: 500;
     color: #101820;
     font-size: 12vw;
@@ -13,12 +13,6 @@
 
   .mission-statement-div {
     margin: 6vh auto;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .landing-directory-div {
-    max-width: 1200px;
-    font-family: 'Roboto', sans-serif;
   }
   
   .introduction-div {
@@ -93,7 +87,9 @@
   }
 
   .description-text {
-    font-size: 1.25vw;
+    line-height: 1.75;
+    font-size: 1.5vw;
+    letter-spacing: .01em;
   }
   
   .landing-link {

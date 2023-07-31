@@ -1,0 +1,42 @@
+.comp-container-div {
+   margin: 4vw;
+   font-family: 'Roboto', serif;
+  }
+  
+  .comp-text-div {
+    color: #101820;
+    font-size: 6vw;
+    font-weight: 500;
+    padding:0;
+    margin: 0;
+  }
+  
+  .comp-text-body {
+    line-height: 1.75;
+    font-size: 1.5vw;
+    letter-spacing: .01em;
+  }
+  
+  .comp-link-list {
+    font-size: 1.5vw;
+    letter-spacing: .01em;
+    text-decoration: none;
+    color: #101820;
+  }
+  .comp-link-list:active {
+    color: #c0abff;
+  }
+  
+  .comp-link {
+    width: 15%;
+    padding: .75rem;
+    border-radius: 2px;
+    transition: all .25s ease-in-out;
+  }
+
+  .comp-link:hover {  
+    color: whitesmoke;
+    background-color: #101820;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
