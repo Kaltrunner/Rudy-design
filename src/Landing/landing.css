@@ -1,0 +1,107 @@
+
+.landing-containder {
+   margin: 4vw;
+  }
+  
+  .landing-logo-text {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    color: #101820;
+    font-size: 12vw;
+    padding: 0;
+    margin: 6vh, 0 4vh 0;
+  }
+
+  .mission-statement-div {
+    margin: 6vh auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .landing-directory-div {
+    max-width: 1200px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .introduction-div {
+    width: 52vw;
+    font-size: 4vw;
+    color: #101820;
+    margin: 4vw, 0 4vw 0;
+    padding: 6rem;
+    border: 2px solid #101820;
+    transition: all 0.25s ease-in-out 0s;
+  }
+  .introduction-div:hover {
+    box-shadow: 10px 10px 0px 0px #101820;
+    transition: all 0.25s ease-in-out 0s;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+  
+  .below-the-intro-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .values-div {
+    width: 23vw;
+    margin: 4vw auto;
+    padding: 6rem;
+    color: #101820;
+    font-size: 4vw;
+    border: 2px solid #101820;
+    transition: all 0.25s ease-in-out;
+  }
+  .values-div:hover {
+    box-shadow: 10px 10px 0px 0px #101820;
+    transition: all 0.25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+  
+  .rules-div {
+    width: 16vw;
+    margin: 4vw auto;
+    padding: 6rem;
+    color: #101820;
+    font-size: 4vw;
+    border: 2px solid;
+    transition: all 0.25s ease-in-out;
+  }
+  .rules-div:hover {
+    box-shadow: 10px 10px 0px 0px #101820;
+    transition: all 0.25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+  
+  .components-div {
+    width: 32vw;
+    margin: 4vw auto;
+    padding: 6rem;
+    color: #101820;
+    font-size: 4vw;
+    border: 2px solid #101820;
+    transition: all 0.25s ease-in-out;
+  }
+  .components-div:hover {
+    box-shadow: 10px 10px 0px 0px #101820;
+    transition: all 0.25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+
+  .description-text {
+    font-size: 1.25vw;
+  }
+  
+  .landing-link {
+    text-decoration: none;
+    color: #101820;
+  }
+  .landing-link:active {
+    text-decoration: line-through;
+    color: #c0abff;
+  }
