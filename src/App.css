@@ -12,7 +12,6 @@ html {
 body {
   background-color: whitesmoke;
   scrollbar-width: thin;
-  margin: 4vw;
 }
 body::-webkit-scrollbar {
   width: 12px;

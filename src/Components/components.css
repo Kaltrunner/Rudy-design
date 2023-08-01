@@ -1,6 +1,8 @@
 .comp-container-div {
-   margin: 4vw;
    font-family: 'Roboto', serif;
+   margin: 0;
+   padding: 0;
+   margin: 4rem;
   }
   
   .comp-text-div {
@@ -15,6 +17,8 @@
     line-height: 1.75;
     font-size: 1.5vw;
     letter-spacing: .01em;
+    margin: 0;
+    padding: 0;
   }
   
   .comp-link-list {

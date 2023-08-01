@@ -8,6 +8,8 @@ function Landing() {
         <h1 className="landing-logo-text">.Rudy</h1>
       </div>
 
+      <div className="line-between"></div>
+
       <div className="mission-statement-div">
         <h2 className="mission-statement-text">
           a design system created by developers for developers

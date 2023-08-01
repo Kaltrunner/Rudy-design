@@ -1,0 +1,384 @@
+  .comp-button-container-div {
+    margin: 4rem;
+    padding-top: 8rem;
+    font-family: 'Roboto', serif;
+  }
+
+  .comp-landing-logo-text {
+    color: #101820;
+    font-size: 8vw;
+    font-weight: 500;
+    padding:0;
+    margin: 0;
+  }
+
+  .comp-text-body {
+    line-height: 1.75;
+    font-size: 1.5vw;
+    letter-spacing: .01em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .input-h3-text {
+    font-size: 2vw;
+  }
+
+.alert-field-div {
+    width: 60vw;
+    height: 25vw;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  transparent;
+    border: 1px solid #101820;
+  }
+
+  .alert-box {
+    margin-top: 10vw;
+    width: 30vw;
+    margin: 2vw;
+    background: rgba(228,228,228, 0.75);
+    padding: 3vw;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid #6681ff;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .alert-button {
+    width: 4rem;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    color: #101820;
+    background-color: #d9dfff;
+    border: 1px solid #101820;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .alert-button:hover {
+    background-color: #6681ff;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+  
+  .alert-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .alert-overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .alert-popup {
+    margin: 14vw auto;
+    padding: 2rem;
+    border-radius: 2px;
+    width: 25vw;
+    position: relative;
+    backdrop-filter: blur(4px);
+    opacity: 1!important; 
+    background: rgba(245,245,245,0.75);
+  }
+
+  .alert-popup .alert-close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    transition: all .25s;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101820;
+  }
+  .alert-popup .alert-close:hover {
+    color: #6681ff;
+    cursor: pointer !important;
+  }
+
+  .success-box {
+    margin-top: 10vw;
+    width: 30vw;
+    margin: 2vw;
+    background: rgba(228,228,228, 0.75);
+    padding: 3vw;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid #77ff5b;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .success-button {
+    width: 4rem;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    color: #101820;
+    background-color: #e3ffde;
+    border: 1px solid #101820;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .success-button:hover {
+    background-color: #77ff5b;
+    transition: all 0.25s ease-in-out;
+    cursor:  pointer !important;
+  }
+  
+  .success-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .success-overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .success-popup {
+    margin: 14vw auto;
+    padding: 2rem;
+    border-radius: 2px;
+    width: 25vw;
+    position: relative;
+    backdrop-filter: blur(4px);
+    opacity: 1!important; 
+    background: rgba(245,245,245,0.75);
+  }
+  
+  .success-popup h2 {
+    margin-top: 0;
+  }
+  .success-popup .success-close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    transition: all .25s;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101820;
+  }
+
+  .success-popup .success-close:hover {
+    color: #77ff5b;
+    cursor: pointer !important;
+  }
+
+  .warning-box {
+    width: 30vw;
+    margin: 2vw;
+    background: rgba(228,228,228, 0.75);
+    padding: 3vw;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid  #ffff4d;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .warning-button {
+    width: 4rem;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    color: #101820;
+    background-color: #ffffb7;
+    border: 1px solid #101820;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .warning-button:hover {
+    background-color:  #ffff4d;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+  
+  .warning-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .warning-overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .warning-popup {
+    margin: 14vw auto;
+    padding: 2rem;
+    border-radius: 2px;
+    width: 25vw;
+    position: relative;
+    backdrop-filter: blur(4px);
+    opacity: 1!important; 
+    background: rgba(245,245,245,0.75);
+  }
+  
+  .warning-popup .warning-close {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    transition: all .25s;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101820;
+  }
+
+  .warning-popup .warning-close:hover {
+    color:  #ffff4d;
+    cursor: pointer !important;
+  }
+
+  .danger-box {
+    width: 30vw;
+    margin: 2vw;
+    background: rgba(228,228,228, 0.75);
+    padding: 3vw;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid #ff2400;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .danger-button {
+    width: 4rem;
+    font-size: 1.5vw;
+    padding: 1.5vw;
+    color: #101820;
+    background-color: #ffe9e5;
+    border: 1px solid #101820;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .danger-button:hover {
+    background-color: #ff2400;
+    transition: all 0.35s ease-out;
+    cursor: pointer !important;
+  }
+  
+  .danger-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .danger-overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .danger-popup {
+    margin: 14vw auto;
+    padding: 2rem;
+    border-radius: 2px;
+    width: 25vw;
+    position: relative;
+    backdrop-filter: blur(4px);
+    opacity: 1!important; 
+    background: rgba(245,245,245,0.75);
+  }
+  
+  .danger-popup .danger-close {
+     position: absolute;
+    top: 1em;
+    right: 1.5em;
+    transition: all .25s;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101820;
+  }
+
+  .danger-popup .danger-close:hover {
+    color: #ff2400;
+    cursor: pointer !important;
+  }
+
+  /* Code Styles */
+
+  .code-along-css-div {
+    width: 60vw;
+    height: 25vw;
+    overflow: scroll;
+    border: 1px solid #121c26;
+    border-radius: 2px;
+    background-color: transparent;
+    box-shadow: 5px 5px  0 0 #121c26;
+  }
+  .code-along-css-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .css-button {
+    cursor: pointer !important;
+    margin: 1rem;
+    position: absolute;
+  }
+
+  .code-along-div {
+    width: 60vw;
+    height: 25vw;
+    overflow: scroll;
+    color: whitesmoke;
+    border-radius: 2px;
+    background-color: #121c26;
+  }
+  .code-along-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .html-button {
+    cursor: pointer !important;
+    margin: 1rem 5rem;
+    position: absolute;
+  }
+
+  .code-along-text {
+    font-size: 1.25vw;
+  }

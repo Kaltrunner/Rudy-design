@@ -1,5 +1,5 @@
 .values-container-div {
-    margin: 4vw;
+    margin: 4rem;
     font-family: 'Roboto', serif;
   }
   
@@ -28,10 +28,11 @@
     cursor: default;
     transition: all 0.25s ease-in-out 0s;
   }
-  .value-div:hover {
+
+  /* .value-div:hover {
     background-color: #e3e3e3;
-    transition: all 0.25s ease-in-out 0s
-  }
+    transition: all 0.25s ease-in-out 0s;
+  } */
 
   .description-text {
     line-height: 1.5;

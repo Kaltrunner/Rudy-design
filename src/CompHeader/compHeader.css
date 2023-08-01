@@ -1,0 +1,21 @@
+.comp-header-container {
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+    backdrop-filter: blur(4px);
+    opacity: 1!important; 
+    background: rgba(245,245,245,0.75);
+  }
+
+  .comp-header-home-button {
+    background: transparent;
+    font-size: 4vw;
+    margin: auto 4rem;
+    border: none;
+    cursor: pointer !important;
+  }

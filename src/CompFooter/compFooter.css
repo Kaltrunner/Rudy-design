@@ -1,0 +1,37 @@
+.comp-footer-container {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+  }
+
+  .comp-footer-buttons {
+    background-color: transparent;
+    border: whitesmoke;
+    border-radius: 2px;
+    font-size: 2vw;
+    margin: 1vw;
+    padding: .25vw;
+    transition: all 0.25s ease-in-out;
+  }
+  .comp-footer-buttons:hover {
+    background-color: #101820;
+    color: #f8f8f8;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  .button-div {
+    height: 40rem;
+    width: 82rem;
+    border-radius: 2px;
+    margin: 2rem;
+    background-color: #c0abff;
+  }
+  .button-div2 {
+    height: 40rem;
+    border-radius: 20rem;
+    background-color:#101820;
+    margin: 4rem;
+  }
