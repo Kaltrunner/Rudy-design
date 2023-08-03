@@ -1,0 +1,270 @@
+  .button-field-div {
+    width: 72vw;
+    height: auto;
+    margin: 6vw auto;
+    border-radius: 2px;
+    background-color:  transparent;
+    border: 1px solid #101820;
+  }
+
+  .button-field-h4 {
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+
+  .button-example-div {
+    margin: 4vw auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .button-example {
+    width: 12vw;
+    height: 6vw;
+    font-size: 1.5vw;
+    margin: 0 auto;
+    border-radius: 2px;
+    border: 1px solid #101820;
+    transition: all 0.25s ease-in-out;
+  }
+  .button-example:hover {
+    box-shadow: 4px 3px 0 0;
+    transition: all .25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+
+  #primary-button {
+    font-size: 1.5vw;
+    background-color: #101820;
+    color: whitesmoke;
+    transition: all 0.25s ease-in-out;
+  }
+  #primary-button:hover {
+    background-color: #cfd0d299;
+    color: #101820;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #secondary-button {
+    font-size: 1.5vw;
+    background: transparent;
+    transition: all .25s ease-in-out;
+  }
+  #secondary-button:hover {
+    box-shadow: 4px 3px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+  
+  #other-button {
+    font-size: 1.5vw;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all .25s ease-in-out;
+  }
+  #other-button:hover {
+    border: 1px solid #101820;
+    box-shadow: 4px 4px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #tertiary-button {
+    width: 12vw;
+    height: 6vw;
+    font-size: 2.5vw;
+    border: none;
+    margin: 0 auto;
+    background-color:  transparent;
+    transition: all .25s ease-in-out;
+  }
+  #tertiary-button:hover {
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+    color: #cfd0d2;
+  }
+
+  .button-disabled-example {
+    width: 12vw;
+    height: 6vw;
+    font-size: 1.5vw;
+    margin: 0 auto;
+    border-radius: 2px;
+    border: 1px solid #101820;
+    background-color:  #cfd0d2;
+  }
+
+  .button-disabled-example:hover {
+    box-shadow: 4px 3px 0 0;
+    cursor: not-allowed !important;
+    background-color: #6f747980;
+  }
+
+  #secondarty-button-disabled {
+    border: 1px solid #101820;
+  }
+
+  #other-button-disabled {
+    border-radius: 25rem;
+  }
+
+  .small-button-example {
+    width: 8vw;
+    height: 4vw;
+    margin: 10px;
+    font-size: 1.25vw;
+    border-radius: 2px;
+    border: 1px solid #101820;
+    background-color: whitesmoke;;
+    transition: all 0.25s ease-in-out;
+  }
+  .small-button-example:hover {
+    box-shadow: 4px 3px 0 0;
+    transition: all .25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+
+  #small-primary-button {
+    background-color: #101820;
+    color: whitesmoke;
+    transition: all 0.25s ease-in-out;
+  }
+  #small-primary-button:hover {
+    background-color: #d3d5d699;
+    color: #101820;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #small-secondary-button {
+    background-color: transparent;
+    border: 1px solid #101820;
+    transition: all .25s ease-in-out;
+  }
+  #small-secondary-button:hover {
+    border: 1px solid #101820;
+    box-shadow: 4px 3px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+  
+  #small-other-button {
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all .25s ease-in-out;
+  }
+  #small-other-button:hover {
+    border: 1px solid #101820;
+    border-radius: 25px;
+    box-shadow: 4px 3px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #small-tertiary-button {
+    width: 8vw;
+    height: 4vw;
+    font-size: 1.75vw;
+    border: none;
+    background-color:  transparent;
+    transition: all .25s ease-in-out;
+  }
+  #small-tertiary-button:hover {
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+    color: #cfd0d2;
+  }
+
+  .large-button-field-div {
+    width: 52rem;
+    height: auto;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:  transparent;
+    border: 1px solid #101820;
+  }
+
+  .large-button-field-h4 {
+    font-size: 2vw;
+    margin-left: 4vw;
+  }
+
+  .large-button-example-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4vw;
+  }
+
+  .large-button-example {
+    width: 64vw;
+    height: 6vw;
+    margin: 10px;
+    font-size: 22px;
+    border-radius: 2px;
+    border: 1px solid #101820;
+    background-color: whitesmoke;;
+    transition: all 0.25s ease-in-out;
+  }
+  .large-button-example:hover {
+    box-shadow: 5px 4px 0 0;
+    transition: all .25s ease-in-out;
+    transform: translateY(-4px);
+    cursor: pointer !important;
+  }
+
+  #large-primary-button {
+    background-color: #101820;
+    color: whitesmoke;
+    transition: all 0.25s ease-in-out;
+  }
+  #large-primary-button:hover {
+    background-color: #d3d5d699;
+    color: #101820;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #large-secondary-button {
+    border: 1px solid #101820;
+    transition: all .25s ease-in-out;
+  }
+  #large-secondary-button:hover {
+    background-color: transparent;
+    border: 1px solid #101820;
+    box-shadow: 5px 4px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+  
+  #large-other-button {
+    border-radius: 25px;
+    transition: all .25s ease-in-out;
+  }
+  #large-other-button:hover {
+    background-color: transparent;
+    border: 1px solid #101820;
+    box-shadow: 5px 4px 0 0;
+    transition: all .25s ease-in-out;
+    cursor: pointer !important;
+  }
+
+  #large-tertiary-button {
+    height: 6vw;
+    font-size: 2.5vw;
+    border: none;
+    background-color:  transparent;
+    transition: all .25s ease-in-out;
+  }
+  #large-tertiary-button:hover {
+    transition: all .25s ease-in-out;
+    color: #cfd0d2;
+    cursor: pointer !important;
+  }

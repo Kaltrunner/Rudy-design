@@ -23,6 +23,7 @@
     padding: 6rem;
     border: 2px solid #101820;
     transition: all 0.25s ease-in-out 0s;
+    background-color: #f5f5f580;
   }
   .introduction-div:hover {
     box-shadow: 10px 10px 0px 0px #101820;
@@ -43,6 +44,7 @@
     margin: 4vw auto;
     padding: 6rem;
     color: #101820;
+    background-color: #f5f5f580;
     font-size: 4vw;
     border: 2px solid #101820;
     transition: all 0.25s ease-in-out;
@@ -59,6 +61,7 @@
     margin: 4vw auto;
     padding: 6rem;
     color: #101820;
+    background-color: #f5f5f580;
     font-size: 4vw;
     border: 2px solid;
     transition: all 0.25s ease-in-out;
@@ -75,6 +78,7 @@
     margin: 4vw auto;
     padding: 6rem;
     color: #101820;
+    background-color: #f5f5f580;
     font-size: 4vw;
     border: 2px solid #101820;
     transition: all 0.25s ease-in-out;

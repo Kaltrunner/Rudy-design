@@ -13,7 +13,7 @@
   }
 
   .header-buttons:hover {
-    background-color: #101820;
+    background-color: #101820CC;
     color: whitesmoke;
     cursor: pointer !important;
     transition: all 0.25s ease-in-out;

@@ -7,6 +7,8 @@ import Values from "./Values/Values";
 import Rules from "./Rules/Rules";
 import Components from "./Components/Components";
 import Alerts from "./Alerts/Alerts";
+import Buttons from "./Buttons/Buttons";
+import Checkboxes from "./Checkboxes/Checkboxes";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -50,8 +52,8 @@ function App() {
         <Route path="/Rules" element={<Rules />} />
         <Route path="/Components" element={<Components />} />
         <Route path="/Alerts" element={<Alerts />} />
-        {/* <Route path="/Buttons" element={<Buttons />} /> */}
-        {/* <Route path="/CheckBoxes" element={<CheckBoxes />} /> */}
+        <Route path="/Buttons" element={<Buttons />} />
+        <Route path="/Checkboxes" element={<Checkboxes />} />
         {/* <Route path="/DropDowns" element={<DropDowns />} /> */}
         {/* <Route path="/SearchBars" element={<SearchBars />} /> */}
         {/* <Route path="/RangeSliders" element={<RangeSliders />} /> */}
