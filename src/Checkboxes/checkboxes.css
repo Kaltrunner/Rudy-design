@@ -1,28 +1,28 @@
 .checkbox-field-div {
-    width: 52rem;
-    height: 12rem;
-    margin: 62px;
+    width: 72vw;
+    height: auto;
+    margin: 6vw auto;
     border-radius: 2px;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    background-color:  #f7f8f8;
+    background: #f5f5f580;
     border: 1px solid #101820;
   }
 
   .checkbox-field-h4 {
-    margin: 32px;
+    font-size: 2vw;
+    margin-left: 4vw;
   }
 
   /* Standard checkbox Styles */
 
   /* Customize the label (the container) */
 .container {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 21px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  font-size: 1.5vw;
   user-select: none;
 }
 
@@ -30,7 +30,6 @@
 .container input {
   position: absolute;
   opacity: 0;
-  cursor: pointer;
   height: 0;
   width: 0;
 }
@@ -42,10 +41,11 @@
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #ededee;
+  background-color: #ededee80;
   border-radius: 2px;
-  border: 1px solid #272f36;
-  transition: all .15s ease-in-out;
+  border: 1px solid #101820;
+  transition: all .25s ease-in-out;
+  cursor: pointer !important;
 }
 
 /* On mouse-over, add a grey background color */

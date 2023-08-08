@@ -9,6 +9,8 @@ import Components from "./Components/Components";
 import Alerts from "./Alerts/Alerts";
 import Buttons from "./Buttons/Buttons";
 import Checkboxes from "./Checkboxes/Checkboxes";
+import ColorGrids from "./ColorGrids/ColorGrids";
+import DropDowns from "./Dropdowns/Dropdowns";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -23,13 +25,14 @@ function App() {
         outerAlpha={1}
         innerScale={0}
         outerScale={1}
-        trailingSpeed={14}
+        trailingSpeed={15}
         hasBlendMode={true}
         hasFilter={true}
         hasZ-index={true}
         outerStyle={{
           filter: "blur(4px)",
           zIndex: "-100",
+          border: "2px solid #10182080",
         }}
         clickables={[
           "a",
@@ -54,12 +57,12 @@ function App() {
         <Route path="/Alerts" element={<Alerts />} />
         <Route path="/Buttons" element={<Buttons />} />
         <Route path="/Checkboxes" element={<Checkboxes />} />
-        {/* <Route path="/DropDowns" element={<DropDowns />} /> */}
+        <Route path="/ColorGrids" element={<ColorGrids />} />
+        <Route path="/DropDowns" element={<DropDowns />} />
         {/* <Route path="/SearchBars" element={<SearchBars />} /> */}
         {/* <Route path="/RangeSliders" element={<RangeSliders />} /> */}
         {/* <Route path="/Toggles" element={<Toggles />} /> */}
         {/* <Route path="/InputFields" element={<InputFields />} /> */}
-        {/* <Route path="/ColorGrids" element={<ColorGrids />} /> */}
         {/* <Route path="/About" element={<About />} /> */}
       </SlideRoutes>
     </>

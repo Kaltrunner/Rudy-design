@@ -1,0 +1,42 @@
+.dropdown-field-div {
+    width: 52rem;
+    height: 22rem;
+    margin: 4vw auto;
+    border-radius: 2px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color:  #f7f8f8;
+    border: 1px solid #101820;
+  }
+
+  .drop-button-1 {
+    width: 240px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f1f1;
+    border: 1px solid #101820;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .drop-button-1:hover {
+    background-color: #dedfe0;
+  }
+  .dropdown-img {
+    height: 52px;
+    font-size: 8px;
+  }
+
+  .dropdownOne-content {
+    display: none;
+    text-align: center;
+    min-width: 160px;
+    padding: 2px;
+  }
+
+  .drop-links {
+    cursor: pointer;
+    text-align: center;
+  }

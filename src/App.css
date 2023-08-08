@@ -2,6 +2,7 @@
 
 * {
   cursor: default !important;
+  font-family: 'Roboto', serif;
 }
 
 html {
@@ -30,14 +31,14 @@ body::-webkit-scrollbar-thumb {
 
 .line-between {
   width: 100%;
-  height: 2px;
+  height: 1px;
   margin: 6vh auto;
   background-color: #101820;
 }
 
 .comp-line-between {
   width: 100%;
-  height: 2px;
+  height: 1px;
   margin-top: 8vh;
   background-color: #101820;
 }

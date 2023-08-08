@@ -22,7 +22,7 @@
   }
   
   .comp-link-list {
-    font-size: 1.5vw;
+    font-size: 2vw;
     letter-spacing: .01em;
     text-decoration: none;
     color: #101820;
@@ -40,7 +40,7 @@
 
   .comp-link:hover {  
     color: whitesmoke;
-    background-color: #101820;
+    background-color: #101820CC;
     transition: all .25s ease-in-out;
     cursor: pointer !important;
   }

@@ -620,6 +620,7 @@ function Checkboxes() {
           )}
         </div>
       </div>
+      <div className="comp-line-between"></div>
       <CompFooter />
     </>
   );
