@@ -1,0 +1,108 @@
+  .range-container-div {
+    width: 52vw;
+    height: auto;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+  .range-border-container-div {
+    width: 52vw;
+    height: auto;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+  input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #4162ff;
+    height: 1.5rem;
+    width: 1.5rem; 
+    border-radius: 50%;
+    transition: all .15s ease-in-out;
+  }
+  input:active::-webkit-slider-thumb {
+    background-color: #344ecc;
+    height: 2rem;
+    width: 2rem; 
+    border-radius: 50%;
+    transition: all .15s ease-in-out;
+  }
+
+  #myinput {
+    appearance: none;
+    border-radius: 8px;
+    height: 1vh;
+    width: 30vw;
+    margin: 6vw;
+    background-color: #dbdcdd;
+    cursor:grab !important;
+  }
+  #myinput:active {
+    border-radius: 8px;
+    cursor: grabbing !important;
+  }
+
+  #myinput-border {
+    appearance: none;
+    border-radius: 8px;
+    height: 1vh;
+    width: 30vw;
+    margin: 6vw;
+    background-color: #dbdcdd;
+    border: 1px solid #101820;
+    cursor:grab !important;
+  }
+  #myinput-border:active {
+    border-radius: 8px;
+    cursor: grabbing !important;
+  }
+
+  #myinput-disabled {
+    appearance: none;
+    border-radius: 8px;
+    height: 1vh;
+    width: 30vw;
+    margin: 6vw;
+    background-color: #6f7479;
+    cursor: not-allowed !important;
+  }
+  #myinput-disabled::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #000;
+    height: 1.5rem;
+    width: 1.5rem; 
+    border-radius: 50%;
+  }
+
+  #numeric-slider-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .range-slider__range {
+    border: 1px solid #000;
+  }
+
+  .range-slider__value {
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 50%;
+    padding: 1vw;
+    margin: .25vw;
+    background-color: #dbdcdd80;
+    border: 1px solid #000;
+  }

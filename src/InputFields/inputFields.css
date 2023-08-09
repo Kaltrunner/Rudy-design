@@ -1,0 +1,103 @@
+  .input-field-div {
+    width: 40rem;
+    height: 15rem;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+  .password-field-div {
+    width: 40rem;
+    height: 15rem;
+    margin: 4vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+  .error-field-div {
+    width: 40rem;
+    height: 15rem;
+    margin: 4vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+
+  #plain-input[type=text] {
+    height: 3rem;
+    width: 34rem;
+    border: 2px solid #101820;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 2vw;
+    background-color: #ededee80;
+    text-align: center;
+    letter-spacing: 0.125em;
+  }
+  #plain-input[type=text]:focus {
+    background-color:  #dedfe080;
+    outline: none !important;
+    letter-spacing: 0.125em;
+  }
+
+  #password-input[type=password] {
+    height: 3rem;
+    width: 34rem;
+    border: 2px solid #101820;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 2vw;
+    background-color: #ededee80;
+    text-align: center;
+    letter-spacing: 0.125em;
+  }
+  #password-input[type=password]:focus {
+    background-color:  #dedfe080;
+    outline: none !important;
+    letter-spacing: 0.125em;
+  }
+
+  #error-input[type=text] {
+    height: 3rem;
+    width: 34rem;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #ff2400;
+    border-left: none;
+    font-size: 2vw;
+    background-color: #ededee80;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #000;
+    
+  }
+  #error-input[type=text]:focus {
+    background-color:  #ffe9e5;
+    outline: none !important;
+    letter-spacing: 0.125em;
+    cursor: not-allowed !important;
+  }
+
+input::placeholder{
+    color: #000;
+  }

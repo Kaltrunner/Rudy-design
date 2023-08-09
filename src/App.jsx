@@ -11,6 +11,10 @@ import Buttons from "./Buttons/Buttons";
 import Checkboxes from "./Checkboxes/Checkboxes";
 import ColorGrids from "./ColorGrids/ColorGrids";
 import DropDowns from "./Dropdowns/Dropdowns";
+import InputFields from "./InputFields/InputFields";
+import RangeSliders from "./RangeSliders/RangeSliders";
+import SearchBars from "./SearchBars/SearchBars";
+import Toggles from "./Toggles/Toggles";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -59,10 +63,10 @@ function App() {
         <Route path="/Checkboxes" element={<Checkboxes />} />
         <Route path="/ColorGrids" element={<ColorGrids />} />
         <Route path="/DropDowns" element={<DropDowns />} />
-        {/* <Route path="/SearchBars" element={<SearchBars />} /> */}
-        {/* <Route path="/RangeSliders" element={<RangeSliders />} /> */}
-        {/* <Route path="/Toggles" element={<Toggles />} /> */}
-        {/* <Route path="/InputFields" element={<InputFields />} /> */}
+        <Route path="/InputFields" element={<InputFields />} />
+        <Route path="/RangeSliders" element={<RangeSliders />} />
+        <Route path="/SearchBars" element={<SearchBars />} />
+        <Route path="/Toggles" element={<Toggles />} />
         {/* <Route path="/About" element={<About />} /> */}
       </SlideRoutes>
     </>

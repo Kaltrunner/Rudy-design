@@ -1,0 +1,526 @@
+.toggle-field-div {
+    width: 52rem;
+    height: 12rem;
+    margin: 6vw auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:  #f7f8f880;
+    border: 1px solid #101820;
+  }
+
+
+  .toggle-h3-text {
+    margin: 32px;
+  }
+
+  .toggle-example-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  /* Toggle 1 styles */
+
+  .toggle-1 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  whitesmoke;
+    transition: background-color ease .25s;
+  }
+  
+  .toggle-1:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .toggle-1:checked {
+    background-color: whitesmoke;;
+    color: #121c26;
+  }
+  
+  .toggle-1:checked:before {
+    left: 32px;
+    color: #121c26;
+  }
+
+  /* Toggle 2 Styles */
+
+  .toggle-2 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  whitesmoke;
+    transition: background-color ease .25s;
+  }
+  
+  .toggle-2:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .toggle-2:checked {
+    background-color: #4162ff;
+    color: whitesmoke;
+  }
+  
+  .toggle-2:checked:before {
+    left: 32px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+  }
+
+  /* Toggle 3 Styles */
+
+  .toggle-3 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  whitesmoke;
+    transition: background-color ease .25s;
+  }
+  
+  .toggle-3:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .toggle-3:checked {
+    background-color: #92ff7b;
+    color: whitesmoke;
+  }
+  
+  .toggle-3:checked:before {
+    left: 32px;
+    color: #121c26;
+    background-color: #121c26;
+  }
+
+  /* Toggle 4 Styles */
+
+  .toggle-4 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  #7d8186;
+    transition: background-color ease .25s;
+  }
+  
+  .toggle-4:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: whitesmoke;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .toggle-4:checked {
+    background-color: whitesmoke;;
+    color: #121c26;
+  }
+  
+  .toggle-4:checked:before {
+    left: 32px;
+    color: #121c26;
+  }
+
+  /* Rounded Toggle Styling */
+
+  #round-toggle:before {
+    border-radius: 25px;
+  }
+  #round-toggle {
+    border-radius: 25px;
+  }
+
+  /* Reverse Toggles */
+
+  #reverse-round-toggle:before {
+    border-radius: 25px;
+  }
+  #reverse-round-toggle {
+    border-radius: 25px;
+  }
+
+  /*  Reverse Toggle 1 Styles  */
+
+  .reverse-toggle-1 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  whitesmoke;
+    transition: background-color ease .25s;
+  }
+  
+  .reverse-toggle-1:before {
+    content: "off on";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -25px;
+    word-spacing: 35px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .reverse-toggle-1:checked {
+    background-color: whitesmoke;;
+    color: #121c26;
+  }
+  
+  .reverse-toggle-1:checked:before {
+    left: 32px;
+    color: #121c26;
+  }
+
+  /*  Reverse Toggle 2 Styles  */
+
+  .reverse-toggle-2 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  #4162ff;
+    transition: background-color ease .25s;
+  }
+  
+  .reverse-toggle-2:before {
+    content: "off on";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: whitesmoke;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -25px;
+    word-spacing: 35px;
+    color: whitesmoke;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .reverse-toggle-2:checked {
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+  
+  .reverse-toggle-2:checked:before {
+    left: 32px;
+    color: #121c26;
+    background-color: #121c26;
+  }
+
+  /*  Reverse Toggle 3 Styles  */
+
+  .reverse-toggle-3 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  #92ff7b;
+    transition: background-color ease .25s;
+  }
+  
+  .reverse-toggle-3:before {
+    content: "off on";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    /* background: whitesmoke; */
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -25px;
+    word-spacing: 35px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .reverse-toggle-3:checked {
+    background-color: whitesmoke;;
+    color: whitesmoke;
+  }
+  
+  .reverse-toggle-3:checked:before {
+    left: 32px;
+    color: #121c26;
+    background-color: #121c26;
+  }
+
+  /*  Reverse Toggle 4 Styles  */
+
+  .reverse-toggle-4 {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor: pointer;
+    color: #121c26;
+    background-color:  whitesmoke;
+    transition: background-color ease .25s;
+  }
+  
+  .reverse-toggle-4:before {
+    content: "off on";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 2px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -25px;
+    word-spacing: 35px;
+    color: #121c26;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
+  
+  .reverse-toggle-4:checked {
+    background-color: #7d8186;
+    color: #121c26;
+  }
+  
+  .reverse-toggle-4:checked:before {
+    left: 32px;
+    color: whitesmoke;
+  }
+
+
+
+  /* Disabled Toggle Styling */
+
+    #disabled-toggle {
+      appearance: none;
+      width: 62px;
+      height: 32px;
+      display: inline-block;
+      position: relative;
+      border-radius: 2px;
+      overflow: hidden;
+      border: 1px solid #121c26;
+      cursor:not-allowed;
+      color: #121c26;
+      background-color:  #7d8186;
+      transition: background-color ease .25s;
+    }
+    
+    #disabled-toggle:before {
+      content: "on off";
+      display: block;
+      position: absolute;
+      z-index: 2;
+      width: 26px;
+      height: 26px;
+      background: #121c26;
+      left: 2px;
+      top: 2px;
+      border-radius: 2px;
+      font: 10px/28px Helvetica;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-indent: -22px;
+      word-spacing: 37px;
+      color: whitesmoke;
+      text-shadow: -1px -1px rgba(0,0,0,0.15);
+      white-space: nowrap;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      transition: all 0.25s;
+    }
+
+
+  #disabled-round-toggle {
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #121c26;
+    cursor:not-allowed;
+    color: #121c26;
+    background-color:  #7d8186;
+    transition: background-color ease .25s;
+  }
+  
+  #disabled-round-toggle:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #121c26;
+    left: 2px;
+    top: 2px;
+    border-radius: 25px;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: whitesmoke;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+  }
