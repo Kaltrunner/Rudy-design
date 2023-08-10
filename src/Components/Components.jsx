@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
-import "./Components.css";
+import "./components.css";
 
 function Components() {
   return (
