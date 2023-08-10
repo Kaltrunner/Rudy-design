@@ -65,7 +65,6 @@ function Toggles() {
             <div className="toggle-example-div">
               <input className="toggle-1" type="checkbox" />
               <input className="toggle-2" type="checkbox" />
-              <input className="toggle-3" type="checkbox" />
               <input className="toggle-4" type="checkbox" />
             </div>
           </div>
@@ -168,7 +167,6 @@ function Toggles() {
             <div className="toggle-example-div">
               <input className="toggle-1" id="round-toggle" type="checkbox" />
               <input className="toggle-2" id="round-toggle" type="checkbox" />
-              <input className="toggle-3" id="round-toggle" type="checkbox" />
               <input className="toggle-4" id="round-toggle" type="checkbox" />
             </div>
           </div>
@@ -285,16 +283,6 @@ function Toggles() {
                 type="checkbox"
               />
               <input
-                className="reverse-toggle-2"
-                id="reverse-toggle"
-                type="checkbox"
-              />
-              <input
-                className="reverse-toggle-3"
-                id="reverse-round-toggle"
-                type="checkbox"
-              />
-              <input
                 className="reverse-toggle-4"
                 id="reverse-round-toggle"
                 type="checkbox"
@@ -402,16 +390,6 @@ function Toggles() {
               <input
                 className="toggle-1"
                 id="disabled-toggle"
-                type="checkbox"
-              />
-              <input
-                className="toggle-2"
-                id="disabled-toggle"
-                type="checkbox"
-              />
-              <input
-                className="toggle-3"
-                id="disabled-round-toggle"
                 type="checkbox"
               />
               <input
