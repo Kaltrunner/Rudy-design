@@ -15,6 +15,7 @@ import InputFields from "./InputFields/InputFields";
 import RangeSliders from "./RangeSliders/RangeSliders";
 import SearchBars from "./SearchBars/SearchBars";
 import Toggles from "./Toggles/Toggles";
+import About from "./About/About";
 import AnimatedCursor from "react-animated-cursor";
 import "./App.css";
 
@@ -28,7 +29,7 @@ function App() {
         color="192, 171, 255"
         outerAlpha={1}
         innerScale={0}
-        outerScale={1}
+        outerScale={0.5}
         trailingSpeed={15}
         hasBlendMode={true}
         hasFilter={true}
@@ -67,7 +68,7 @@ function App() {
         <Route path="/RangeSliders" element={<RangeSliders />} />
         <Route path="/SearchBars" element={<SearchBars />} />
         <Route path="/Toggles" element={<Toggles />} />
-        {/* <Route path="/About" element={<About />} /> */}
+        <Route path="/About" element={<About />} />
       </SlideRoutes>
     </>
   );

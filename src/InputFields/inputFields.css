@@ -52,6 +52,7 @@
     background-color: #ededee80;
     text-align: center;
     letter-spacing: 0.125em;
+    cursor: text !important;
   }
   #plain-input[type=text]:focus {
     background-color:  #dedfe080;
@@ -70,6 +71,7 @@
     background-color: #ededee80;
     text-align: center;
     letter-spacing: 0.125em;
+    cursor: text !important;
   }
   #password-input[type=password]:focus {
     background-color:  #dedfe080;
@@ -89,7 +91,7 @@
     text-align: center;
     letter-spacing: 0.125em;
     color: #000;
-    
+    cursor: not-allowed !important;
   }
   #error-input[type=text]:focus {
     background-color:  #ffe9e5;

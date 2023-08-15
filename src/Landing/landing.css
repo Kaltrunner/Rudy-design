@@ -8,7 +8,7 @@
     font-weight: 500;
     color: #101820;
     font-size: 12vw;
-    margin: 6vh, 0 4vh 0;
+    margin: 14vh 0 4vh 0;
   }
 
   .mission-statement-div {
@@ -78,7 +78,6 @@
     margin: 4vw auto;
     padding: 6rem;
     color: #101820;
-    background-color: #f5f5f580;
     font-size: 4vw;
     border: 2px solid #101820;
     transition: all 0.25s ease-in-out;
