@@ -8,9 +8,16 @@
     align-items: center;
     background: whitesmoke;
     z-index: 100;
-    /* backdrop-filter: blur(6px);
-    background: rgba(245,245,245,0.8); */
+    backdrop-filter: blur(6px);
+    background: rgba(245,245,245,0.8);
   }
+
+  .comp-header-link:hover span {
+    transform: rotate(90deg);
+    cursor: pointer !important;
+  } 
+
+  
 
   .comp-header-home-button {
     background: transparent;
@@ -28,11 +35,6 @@
     margin: 0 1vw;
     transition-duration: .5s;
     transition-property: transform;
-  }
-
-  .comp-header-home-button span:hover {
-    transform: rotate(90deg);
-    cursor: pointer !important;
   }
 
   .home-link {

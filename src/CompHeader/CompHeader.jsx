@@ -7,7 +7,7 @@ function CompHeader() {
       <Link to="/">
         <p className="home-link">.Rudy</p>
       </Link>
-      <Link to="/Components">
+      <Link className="comp-header-link" to="/Components">
         <button className="comp-header-home-button">
           Close <span>✖</span>
         </button>
